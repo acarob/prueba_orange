@@ -1,5 +1,8 @@
 describe("Test suit - homework", () => {
-  it("Validar pagina de inicio", () => {
+  beforeEach(() => {
     cy.visit("https://opensource-demo.orangehrmlive.com/");
+  });
+  it("Validar logo", () => {
+    cy.get(".orangehrm-login-branding > img").should("be.visible");
   });
 });

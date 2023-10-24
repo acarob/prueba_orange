@@ -10,4 +10,9 @@ describe("Test suit - homework", () => {
       ":nth-child(2) > .oxd-input-group > .oxd-input-group__label-wrapper > .oxd-label"
     ).should("be.visible");
   });
+  it("Validar etiqueta", () => {
+    cy.get(".orangehrm-copyright-wrapper > :nth-child(1)").contains(
+      "OrangeHRM "
+    );
+  });
 });

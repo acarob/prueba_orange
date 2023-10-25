@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "cypress open",
-    "test1": "cypress run --spec cypress/e2e/smokeTest.cy.js --broser chrome"
+    "test1": "cypress run --spec cypress/e2e/smokeTest.cy.js --browser chrome"
   },
   "author": "Andrea Barrera",
   "license": "ISC",

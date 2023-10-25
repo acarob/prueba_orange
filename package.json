@@ -4,7 +4,8 @@
   "description": "Testing homework",
   "main": "index.js",
   "scripts": {
-    "test": "cypress open"
+    "test": "cypress open",
+    "test1": "cypress run --spec cypress/e2e/smokeTest.cy.js --broser chrome"
   },
   "author": "Andrea Barrera",
   "license": "ISC",

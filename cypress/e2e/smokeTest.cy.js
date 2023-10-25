@@ -15,4 +15,7 @@ describe("Test suit - homework", () => {
       "OrangeHRM "
     );
   });
+  it("Validar boton", () => {
+    cy.get(".oxd-button").should("be.visible");
+  });
 });
